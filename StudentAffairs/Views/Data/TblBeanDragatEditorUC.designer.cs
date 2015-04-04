@@ -81,6 +81,8 @@
             this.colesaldate = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemDateEditDMY = new DevExpress.XtraEditors.Repository.RepositoryItemDateEdit();
             this.colesalmony = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemButtonEditDetails = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.XPSCS = new DevExpress.Xpo.XPServerCollectionSource(this.components);
             this.cdStageTableAdapter = new StudentAffairs.Datasource.dsDataTableAdapters.cdStageTableAdapter();
             this.cdExamTableAdapter = new StudentAffairs.Datasource.dsDataTableAdapters.cdExamTableAdapter();
@@ -88,8 +90,6 @@
             this.cdSchoolTableAdapter = new StudentAffairs.Datasource.dsDataTableAdapters.cdSchoolTableAdapter();
             this.cdShopaTableAdapter = new StudentAffairs.Datasource.dsDataTableAdapters.cdShopaTableAdapter();
             this.cdFaslDrasyTableAdapter = new StudentAffairs.Datasource.dsDataTableAdapters.CdFaslDrasyTableAdapter();
-            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemButtonEditDetails = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             ((System.ComponentModel.ISupportInitialize)(this.UOW)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenuMain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManagerMain)).BeginInit();
@@ -116,8 +116,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEditDMY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEditDMY.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.XPSCS)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEditDetails)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.XPSCS)).BeginInit();
             this.SuspendLayout();
             // 
             // UOW
@@ -647,6 +647,23 @@
             this.colesalmony.Visible = true;
             this.colesalmony.VisibleIndex = 11;
             // 
+            // gridColumn1
+            // 
+            this.gridColumn1.Caption = "تفاصيل الدرجات";
+            this.gridColumn1.ColumnEdit = this.repositoryItemButtonEditDetails;
+            this.gridColumn1.Name = "gridColumn1";
+            this.gridColumn1.Visible = true;
+            this.gridColumn1.VisibleIndex = 12;
+            // 
+            // repositoryItemButtonEditDetails
+            // 
+            this.repositoryItemButtonEditDetails.AutoHeight = false;
+            this.repositoryItemButtonEditDetails.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.repositoryItemButtonEditDetails.Name = "repositoryItemButtonEditDetails";
+            this.repositoryItemButtonEditDetails.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
+            this.repositoryItemButtonEditDetails.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.repositoryItemButtonEditDetails_ButtonClick);
+            // 
             // XPSCS
             // 
             this.XPSCS.AllowEdit = true;
@@ -679,23 +696,6 @@
             // cdFaslDrasyTableAdapter
             // 
             this.cdFaslDrasyTableAdapter.ClearBeforeFill = true;
-            // 
-            // gridColumn1
-            // 
-            this.gridColumn1.Caption = "تفاصيل الدرجات";
-            this.gridColumn1.ColumnEdit = this.repositoryItemButtonEditDetails;
-            this.gridColumn1.Name = "gridColumn1";
-            this.gridColumn1.Visible = true;
-            this.gridColumn1.VisibleIndex = 12;
-            // 
-            // repositoryItemButtonEditDetails
-            // 
-            this.repositoryItemButtonEditDetails.AutoHeight = false;
-            this.repositoryItemButtonEditDetails.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.repositoryItemButtonEditDetails.Name = "repositoryItemButtonEditDetails";
-            this.repositoryItemButtonEditDetails.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
-            this.repositoryItemButtonEditDetails.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.repositoryItemButtonEditDetails_ButtonClick);
             // 
             // TblBeanDragatEditorUC
             // 
@@ -735,8 +735,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEditDMY.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEditDMY)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.XPSCS)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEditDetails)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.XPSCS)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -185,19 +185,19 @@
     <value>475, 17</value>
   </metadata>
   <metadata name="cdExamBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 56</value>
+    <value>907, 17</value>
   </metadata>
   <metadata name="cdYearBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>356, 56</value>
+    <value>1246, 17</value>
   </metadata>
   <metadata name="cdSchoolBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>685, 56</value>
+    <value>179, 56</value>
   </metadata>
   <metadata name="cdShopaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>191, 95</value>
+    <value>533, 56</value>
   </metadata>
   <metadata name="cdFaslDrasyBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>541, 95</value>
+    <value>883, 56</value>
   </metadata>
   <metadata name="XPSCS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>389, 17</value>
@@ -206,18 +206,18 @@
     <value>738, 17</value>
   </metadata>
   <metadata name="cdExamTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>189, 56</value>
+    <value>1079, 17</value>
   </metadata>
   <metadata name="cdYearTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>523, 56</value>
+    <value>17, 56</value>
   </metadata>
   <metadata name="cdSchoolTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 95</value>
+    <value>359, 56</value>
   </metadata>
   <metadata name="cdShopaTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>369, 95</value>
+    <value>711, 56</value>
   </metadata>
   <metadata name="cdFaslDrasyTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>735, 95</value>
+    <value>1077, 56</value>
   </metadata>
 </root>

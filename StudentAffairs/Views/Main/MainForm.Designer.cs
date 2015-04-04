@@ -94,6 +94,11 @@
             DevExpress.XtraEditors.TileItemFrame tileItemFrame24 = new DevExpress.XtraEditors.TileItemFrame();
             DevExpress.XtraEditors.TileItemElement tileItemElement35 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement36 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame25 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement37 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame26 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement38 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement39 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemFrame tileItemFrame29 = new DevExpress.XtraEditors.TileItemFrame();
             DevExpress.XtraEditors.TileItemElement tileItemElement43 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemFrame tileItemFrame30 = new DevExpress.XtraEditors.TileItemFrame();
@@ -129,11 +134,6 @@
             DevExpress.XtraEditors.TileItemFrame tileItemFrame40 = new DevExpress.XtraEditors.TileItemFrame();
             DevExpress.XtraEditors.TileItemElement tileItemElement59 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement60 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame25 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement37 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame26 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement38 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement39 = new DevExpress.XtraEditors.TileItemElement();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.documentManagerMain = new DevExpress.XtraBars.Docking2010.DocumentManager(this.components);
             this.windowsUIView = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.WindowsUIView(this.components);
@@ -165,6 +165,8 @@
             this.docDataTblMawadSfof = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Document(this.components);
             this.docTilDataTblBean = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Tile(this.components);
             this.docDataTblBean = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Document(this.components);
+            this.docTilDataTblBeanDragat = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Tile(this.components);
+            this.docDataTblBeanDragat = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Document(this.components);
             this.docData = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Document(this.components);
             this.docTilQry = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Tile(this.components);
             this.docQry = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Document(this.components);
@@ -186,8 +188,10 @@
             this.pageUserSettings = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Page(this.components);
             this.docUserSetting = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Document(this.components);
             this.docTilUserSetting = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Tile(this.components);
-            this.docDataTblBeanDragat = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Document(this.components);
-            this.docTilDataTblBeanDragat = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Tile(this.components);
+            this.docQryQry1 = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Document(this.components);
+            this.docTilQryQry1 = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Tile(this.components);
+            this.docReportRep1 = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Document(this.components);
+            this.docTilReportRep1 = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.Tile(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.documentManagerMain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.windowsUIView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tileContainerMain)).BeginInit();
@@ -218,6 +222,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.docDataTblMawadSfof)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.docTilDataTblBean)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.docDataTblBean)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.docTilDataTblBeanDragat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.docDataTblBeanDragat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.docData)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.docTilQry)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.docQry)).BeginInit();
@@ -239,8 +245,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pageUserSettings)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.docUserSetting)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.docTilUserSetting)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.docDataTblBeanDragat)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.docTilDataTblBeanDragat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.docQryQry1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.docTilQryQry1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.docReportRep1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.docTilReportRep1)).BeginInit();
             this.SuspendLayout();
             // 
             // documentManagerMain
@@ -288,7 +296,9 @@
             this.docRuleRule,
             this.docRuleUserRoles,
             this.docRuleRuleDetails,
-            this.docDataTblBeanDragat});
+            this.docDataTblBeanDragat,
+            this.docQryQry1,
+            this.docReportRep1});
             this.windowsUIView.LoadingIndicatorProperties.Caption = "انتظر من فضلك";
             this.windowsUIView.LoadingIndicatorProperties.Description = "تحميل .......";
             this.windowsUIView.OptionsLayout.LayoutVersion = "1";
@@ -323,7 +333,9 @@
             this.docTilRuleRule,
             this.docTilRuleUserRoles,
             this.docTilRuleRuleDetails,
-            this.docTilDataTblBeanDragat});
+            this.docTilDataTblBeanDragat,
+            this.docTilQryQry1,
+            this.docTilReportRep1});
             this.windowsUIView.QueryControl += new DevExpress.XtraBars.Docking2010.Views.QueryControlEventHandler(this.windowsUIView_QueryControl);
             // 
             // tileContainerMain
@@ -753,6 +765,33 @@
             this.docDataTblBean.Caption = "بيان نجاح- رسوب";
             this.docDataTblBean.ControlName = "docDataTblBean";
             // 
+            // docTilDataTblBeanDragat
+            // 
+            this.docTilDataTblBeanDragat.Document = this.docDataTblBeanDragat;
+            tileItemElement37.Image = global::StudentAffairs.Properties.Resources.EditData64;
+            tileItemElement37.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement37.Text = "مستخرج درجات";
+            tileItemElement37.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopCenter;
+            tileItemFrame25.Elements.Add(tileItemElement37);
+            tileItemFrame25.Image = global::StudentAffairs.Properties.Resources.EditData64;
+            tileItemElement38.Image = global::StudentAffairs.Properties.Resources.EditData32;
+            tileItemElement38.Text = "مستخرج درجات";
+            tileItemElement38.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopRight;
+            tileItemElement39.Text = "اضافة و تعديل مستخرج الدرجات";
+            tileItemElement39.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame26.Elements.Add(tileItemElement38);
+            tileItemFrame26.Elements.Add(tileItemElement39);
+            tileItemFrame26.Image = global::StudentAffairs.Properties.Resources.EditData32;
+            this.docTilDataTblBeanDragat.Frames.Add(tileItemFrame25);
+            this.docTilDataTblBeanDragat.Frames.Add(tileItemFrame26);
+            this.tileContainerData.SetID(this.docTilDataTblBeanDragat, 3);
+            this.docTilDataTblBeanDragat.Name = "docTilDataTblBeanDragat";
+            // 
+            // docDataTblBeanDragat
+            // 
+            this.docDataTblBeanDragat.Caption = "مستخرج درجات";
+            this.docDataTblBeanDragat.ControlName = "docDataTblBeanDragat";
+            // 
             // docData
             // 
             this.docData.Caption = "ادخال البيانات";
@@ -760,6 +799,7 @@
             // 
             // docTilQry
             // 
+            this.docTilQry.ActivationTarget = this.tileContainerQry;
             this.docTilQry.Appearances.Normal.BackColor = System.Drawing.Color.Blue;
             this.docTilQry.Appearances.Normal.ForeColor = System.Drawing.Color.White;
             this.docTilQry.Appearances.Normal.Options.UseBackColor = true;
@@ -828,6 +868,8 @@
             // 
             // tileContainerReport
             // 
+            this.tileContainerReport.Items.AddRange(new DevExpress.XtraBars.Docking2010.Views.WindowsUI.BaseTile[] {
+            this.docTilReportRep1});
             this.tileContainerReport.Name = "tileContainerReport";
             this.tileContainerReport.Parent = this.tileContainerMain;
             // 
@@ -1015,8 +1057,10 @@
             // 
             // tileContainerQry
             // 
+            this.tileContainerQry.Items.AddRange(new DevExpress.XtraBars.Docking2010.Views.WindowsUI.BaseTile[] {
+            this.docTilQryQry1});
             this.tileContainerQry.Name = "tileContainerQry";
-            this.tileContainerQry.Parent = this.pageUserSettings;
+            this.tileContainerQry.Parent = this.tileContainerMain;
             // 
             // pageUserSettings
             // 
@@ -1035,32 +1079,25 @@
             this.docTilUserSetting.Name = "docTilUserSetting";
             this.docTilUserSetting.Tag = true;
             // 
-            // docDataTblBeanDragat
+            // docQryQry1
             // 
-            this.docDataTblBeanDragat.Caption = "مستخرج درجات";
-            this.docDataTblBeanDragat.ControlName = "docDataTblBeanDragat";
+            this.docQryQry1.Caption = "Qry Test";
+            this.docQryQry1.ControlName = "docQryQry1";
             // 
-            // docTilDataTblBeanDragat
+            // docTilQryQry1
             // 
-            this.docTilDataTblBeanDragat.Document = this.docDataTblBeanDragat;
-            tileItemElement37.Image = global::StudentAffairs.Properties.Resources.EditData64;
-            tileItemElement37.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement37.Text = "مستخرج درجات";
-            tileItemElement37.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopCenter;
-            tileItemFrame25.Elements.Add(tileItemElement37);
-            tileItemFrame25.Image = global::StudentAffairs.Properties.Resources.EditData64;
-            tileItemElement38.Image = global::StudentAffairs.Properties.Resources.EditData32;
-            tileItemElement38.Text = "مستخرج درجات";
-            tileItemElement38.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopRight;
-            tileItemElement39.Text = "اضافة و تعديل مستخرج الدرجات";
-            tileItemElement39.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame26.Elements.Add(tileItemElement38);
-            tileItemFrame26.Elements.Add(tileItemElement39);
-            tileItemFrame26.Image = global::StudentAffairs.Properties.Resources.EditData32;
-            this.docTilDataTblBeanDragat.Frames.Add(tileItemFrame25);
-            this.docTilDataTblBeanDragat.Frames.Add(tileItemFrame26);
-            this.tileContainerData.SetID(this.docTilDataTblBeanDragat, 3);
-            this.docTilDataTblBeanDragat.Name = "docTilDataTblBeanDragat";
+            this.docTilQryQry1.Document = this.docQryQry1;
+            this.docTilQryQry1.Name = "docTilQryQry1";
+            // 
+            // docReportRep1
+            // 
+            this.docReportRep1.Caption = "Rep test";
+            this.docReportRep1.ControlName = "docReportRep1";
+            // 
+            // docTilReportRep1
+            // 
+            this.docTilReportRep1.Document = this.docReportRep1;
+            this.docTilReportRep1.Name = "docTilReportRep1";
             // 
             // MainForm
             // 
@@ -1103,6 +1140,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.docDataTblMawadSfof)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.docTilDataTblBean)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.docDataTblBean)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.docTilDataTblBeanDragat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.docDataTblBeanDragat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.docData)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.docTilQry)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.docQry)).EndInit();
@@ -1124,8 +1163,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pageUserSettings)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.docUserSetting)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.docTilUserSetting)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.docDataTblBeanDragat)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.docTilDataTblBeanDragat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.docQryQry1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.docTilQryQry1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.docReportRep1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.docTilReportRep1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1185,6 +1226,10 @@
         private DevExpress.XtraBars.Docking2010.Views.WindowsUI.Document docRuleRuleDetails;
         private DevExpress.XtraBars.Docking2010.Views.WindowsUI.Tile docTilDataTblBeanDragat;
         private DevExpress.XtraBars.Docking2010.Views.WindowsUI.Document docDataTblBeanDragat;
+        private DevExpress.XtraBars.Docking2010.Views.WindowsUI.Document docQryQry1;
+        private DevExpress.XtraBars.Docking2010.Views.WindowsUI.Tile docTilQryQry1;
+        private DevExpress.XtraBars.Docking2010.Views.WindowsUI.Tile docTilReportRep1;
+        private DevExpress.XtraBars.Docking2010.Views.WindowsUI.Document docReportRep1;
     }
 }
 

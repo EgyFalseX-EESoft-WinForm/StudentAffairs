@@ -5182,7 +5182,6 @@ namespace StudentAffairs.Datasource {
                 this.columnstname.MaxLength = 100;
                 this.columnSchoolId.AllowDBNull = false;
                 this.columngloosno.AllowDBNull = false;
-                this.columnShopaId.AllowDBNull = false;
                 this.columnFaslDrasyId.AllowDBNull = false;
                 this.columngeha.AllowDBNull = false;
                 this.columngeha.MaxLength = 50;
@@ -6767,7 +6766,6 @@ namespace StudentAffairs.Datasource {
                 this.columnstname.MaxLength = 100;
                 this.columnSchoolId.AllowDBNull = false;
                 this.columngloosno.AllowDBNull = false;
-                this.columnShopaId.AllowDBNull = false;
                 this.columnFaslDrasyId.AllowDBNull = false;
                 this.columnnatega.AllowDBNull = false;
                 this.columnnatega.MaxLength = 50;
@@ -6911,55 +6909,9 @@ namespace StudentAffairs.Datasource {
             
             private global::System.Data.DataColumn columnBeanDragatId;
             
-            private global::System.Data.DataColumn columndegmada1;
+            private global::System.Data.DataColumn columnMadaId;
             
-            private global::System.Data.DataColumn columndegmada2;
-            
-            private global::System.Data.DataColumn columndegmada3;
-            
-            private global::System.Data.DataColumn columndegmada4;
-            
-            private global::System.Data.DataColumn columndegmada5;
-            
-            private global::System.Data.DataColumn columndegmada6;
-            
-            private global::System.Data.DataColumn columndegmada7;
-            
-            private global::System.Data.DataColumn columndegmada8;
-            
-            private global::System.Data.DataColumn columndegmada9;
-            
-            private global::System.Data.DataColumn columndegmada10;
-            
-            private global::System.Data.DataColumn columndegmada11;
-            
-            private global::System.Data.DataColumn columndegmada12;
-            
-            private global::System.Data.DataColumn columndegmada13;
-            
-            private global::System.Data.DataColumn columndegmada14;
-            
-            private global::System.Data.DataColumn columndegmada15;
-            
-            private global::System.Data.DataColumn columndegmada16;
-            
-            private global::System.Data.DataColumn columndegmada17;
-            
-            private global::System.Data.DataColumn columndegmada18;
-            
-            private global::System.Data.DataColumn columndegmada19;
-            
-            private global::System.Data.DataColumn columndegmada20;
-            
-            private global::System.Data.DataColumn columndegmada21;
-            
-            private global::System.Data.DataColumn columndegmada22;
-            
-            private global::System.Data.DataColumn columndegmada23;
-            
-            private global::System.Data.DataColumn columndegmada24;
-            
-            private global::System.Data.DataColumn columndegmada25;
+            private global::System.Data.DataColumn columndgree;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
@@ -7004,201 +6956,17 @@ namespace StudentAffairs.Datasource {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada1Column {
+            public global::System.Data.DataColumn MadaIdColumn {
                 get {
-                    return this.columndegmada1;
+                    return this.columnMadaId;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada2Column {
+            public global::System.Data.DataColumn dgreeColumn {
                 get {
-                    return this.columndegmada2;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada3Column {
-                get {
-                    return this.columndegmada3;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada4Column {
-                get {
-                    return this.columndegmada4;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada5Column {
-                get {
-                    return this.columndegmada5;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada6Column {
-                get {
-                    return this.columndegmada6;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada7Column {
-                get {
-                    return this.columndegmada7;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada8Column {
-                get {
-                    return this.columndegmada8;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada9Column {
-                get {
-                    return this.columndegmada9;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada10Column {
-                get {
-                    return this.columndegmada10;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada11Column {
-                get {
-                    return this.columndegmada11;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada12Column {
-                get {
-                    return this.columndegmada12;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada13Column {
-                get {
-                    return this.columndegmada13;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada14Column {
-                get {
-                    return this.columndegmada14;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada15Column {
-                get {
-                    return this.columndegmada15;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada16Column {
-                get {
-                    return this.columndegmada16;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada17Column {
-                get {
-                    return this.columndegmada17;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada18Column {
-                get {
-                    return this.columndegmada18;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada19Column {
-                get {
-                    return this.columndegmada19;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada20Column {
-                get {
-                    return this.columndegmada20;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada21Column {
-                get {
-                    return this.columndegmada21;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada22Column {
-                get {
-                    return this.columndegmada22;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada23Column {
-                get {
-                    return this.columndegmada23;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada24Column {
-                get {
-                    return this.columndegmada24;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn degmada25Column {
-                get {
-                    return this.columndegmada25;
+                    return this.columndgree;
                 }
             }
             
@@ -7239,61 +7007,12 @@ namespace StudentAffairs.Datasource {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public tbldragatRow AddtbldragatRow(
-                        int BeanDragatId, 
-                        double degmada1, 
-                        double degmada2, 
-                        double degmada3, 
-                        double degmada4, 
-                        double degmada5, 
-                        double degmada6, 
-                        double degmada7, 
-                        double degmada8, 
-                        double degmada9, 
-                        double degmada10, 
-                        double degmada11, 
-                        double degmada12, 
-                        double degmada13, 
-                        double degmada14, 
-                        double degmada15, 
-                        double degmada16, 
-                        double degmada17, 
-                        double degmada18, 
-                        double degmada19, 
-                        double degmada20, 
-                        double degmada21, 
-                        double degmada22, 
-                        double degmada23, 
-                        double degmada24, 
-                        double degmada25) {
+            public tbldragatRow AddtbldragatRow(int BeanDragatId, int MadaId, double dgree) {
                 tbldragatRow rowtbldragatRow = ((tbldragatRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         BeanDragatId,
-                        degmada1,
-                        degmada2,
-                        degmada3,
-                        degmada4,
-                        degmada5,
-                        degmada6,
-                        degmada7,
-                        degmada8,
-                        degmada9,
-                        degmada10,
-                        degmada11,
-                        degmada12,
-                        degmada13,
-                        degmada14,
-                        degmada15,
-                        degmada16,
-                        degmada17,
-                        degmada18,
-                        degmada19,
-                        degmada20,
-                        degmada21,
-                        degmada22,
-                        degmada23,
-                        degmada24,
-                        degmada25};
+                        MadaId,
+                        dgree};
                 rowtbldragatRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowtbldragatRow);
                 return rowtbldragatRow;
@@ -7301,9 +7020,10 @@ namespace StudentAffairs.Datasource {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public tbldragatRow FindByBeanDragatId(int BeanDragatId) {
+            public tbldragatRow FindByBeanDragatIdMadaId(int BeanDragatId, int MadaId) {
                 return ((tbldragatRow)(this.Rows.Find(new object[] {
-                            BeanDragatId})));
+                            BeanDragatId,
+                            MadaId})));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7324,31 +7044,8 @@ namespace StudentAffairs.Datasource {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
                 this.columnBeanDragatId = base.Columns["BeanDragatId"];
-                this.columndegmada1 = base.Columns["degmada1"];
-                this.columndegmada2 = base.Columns["degmada2"];
-                this.columndegmada3 = base.Columns["degmada3"];
-                this.columndegmada4 = base.Columns["degmada4"];
-                this.columndegmada5 = base.Columns["degmada5"];
-                this.columndegmada6 = base.Columns["degmada6"];
-                this.columndegmada7 = base.Columns["degmada7"];
-                this.columndegmada8 = base.Columns["degmada8"];
-                this.columndegmada9 = base.Columns["degmada9"];
-                this.columndegmada10 = base.Columns["degmada10"];
-                this.columndegmada11 = base.Columns["degmada11"];
-                this.columndegmada12 = base.Columns["degmada12"];
-                this.columndegmada13 = base.Columns["degmada13"];
-                this.columndegmada14 = base.Columns["degmada14"];
-                this.columndegmada15 = base.Columns["degmada15"];
-                this.columndegmada16 = base.Columns["degmada16"];
-                this.columndegmada17 = base.Columns["degmada17"];
-                this.columndegmada18 = base.Columns["degmada18"];
-                this.columndegmada19 = base.Columns["degmada19"];
-                this.columndegmada20 = base.Columns["degmada20"];
-                this.columndegmada21 = base.Columns["degmada21"];
-                this.columndegmada22 = base.Columns["degmada22"];
-                this.columndegmada23 = base.Columns["degmada23"];
-                this.columndegmada24 = base.Columns["degmada24"];
-                this.columndegmada25 = base.Columns["degmada25"];
+                this.columnMadaId = base.Columns["MadaId"];
+                this.columndgree = base.Columns["dgree"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7356,60 +7053,15 @@ namespace StudentAffairs.Datasource {
             private void InitClass() {
                 this.columnBeanDragatId = new global::System.Data.DataColumn("BeanDragatId", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnBeanDragatId);
-                this.columndegmada1 = new global::System.Data.DataColumn("degmada1", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada1);
-                this.columndegmada2 = new global::System.Data.DataColumn("degmada2", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada2);
-                this.columndegmada3 = new global::System.Data.DataColumn("degmada3", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada3);
-                this.columndegmada4 = new global::System.Data.DataColumn("degmada4", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada4);
-                this.columndegmada5 = new global::System.Data.DataColumn("degmada5", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada5);
-                this.columndegmada6 = new global::System.Data.DataColumn("degmada6", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada6);
-                this.columndegmada7 = new global::System.Data.DataColumn("degmada7", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada7);
-                this.columndegmada8 = new global::System.Data.DataColumn("degmada8", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada8);
-                this.columndegmada9 = new global::System.Data.DataColumn("degmada9", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada9);
-                this.columndegmada10 = new global::System.Data.DataColumn("degmada10", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada10);
-                this.columndegmada11 = new global::System.Data.DataColumn("degmada11", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada11);
-                this.columndegmada12 = new global::System.Data.DataColumn("degmada12", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada12);
-                this.columndegmada13 = new global::System.Data.DataColumn("degmada13", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada13);
-                this.columndegmada14 = new global::System.Data.DataColumn("degmada14", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada14);
-                this.columndegmada15 = new global::System.Data.DataColumn("degmada15", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada15);
-                this.columndegmada16 = new global::System.Data.DataColumn("degmada16", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada16);
-                this.columndegmada17 = new global::System.Data.DataColumn("degmada17", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada17);
-                this.columndegmada18 = new global::System.Data.DataColumn("degmada18", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada18);
-                this.columndegmada19 = new global::System.Data.DataColumn("degmada19", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada19);
-                this.columndegmada20 = new global::System.Data.DataColumn("degmada20", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada20);
-                this.columndegmada21 = new global::System.Data.DataColumn("degmada21", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada21);
-                this.columndegmada22 = new global::System.Data.DataColumn("degmada22", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada22);
-                this.columndegmada23 = new global::System.Data.DataColumn("degmada23", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada23);
-                this.columndegmada24 = new global::System.Data.DataColumn("degmada24", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada24);
-                this.columndegmada25 = new global::System.Data.DataColumn("degmada25", typeof(double), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndegmada25);
+                this.columnMadaId = new global::System.Data.DataColumn("MadaId", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnMadaId);
+                this.columndgree = new global::System.Data.DataColumn("dgree", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columndgree);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
-                                this.columnBeanDragatId}, true));
+                                this.columnBeanDragatId,
+                                this.columnMadaId}, true));
                 this.columnBeanDragatId.AllowDBNull = false;
-                this.columnBeanDragatId.Unique = true;
+                this.columnMadaId.AllowDBNull = false;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8501,7 +8153,12 @@ namespace StudentAffairs.Datasource {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public byte ShopaId {
                 get {
-                    return ((byte)(this[this.tableTblBean.ShopaIdColumn]));
+                    try {
+                        return ((byte)(this[this.tableTblBean.ShopaIdColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'ShopaId\' in table \'TblBean\' is DBNull.", e);
+                    }
                 }
                 set {
                     this[this.tableTblBean.ShopaIdColumn] = value;
@@ -8583,6 +8240,18 @@ namespace StudentAffairs.Datasource {
                 set {
                     this[this.tableTblBean.dateinColumn] = value;
                 }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsShopaIdNull() {
+                return this.IsNull(this.tableTblBean.ShopaIdColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetShopaIdNull() {
+                this[this.tableTblBean.ShopaIdColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -8857,7 +8526,12 @@ namespace StudentAffairs.Datasource {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public byte ShopaId {
                 get {
-                    return ((byte)(this[this.tableTblBeanDragat.ShopaIdColumn]));
+                    try {
+                        return ((byte)(this[this.tableTblBeanDragat.ShopaIdColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'ShopaId\' in table \'TblBeanDragat\' is DBNull.", e);
+                    }
                 }
                 set {
                     this[this.tableTblBeanDragat.ShopaIdColumn] = value;
@@ -8940,6 +8614,18 @@ namespace StudentAffairs.Datasource {
                     this[this.tableTblBeanDragat.dateinColumn] = value;
                 }
             }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsShopaIdNull() {
+                return this.IsNull(this.tableTblBeanDragat.ShopaIdColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetShopaIdNull() {
+                this[this.tableTblBeanDragat.ShopaIdColumn] = global::System.Convert.DBNull;
+            }
         }
         
         /// <summary>
@@ -8969,702 +8655,41 @@ namespace StudentAffairs.Datasource {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada1 {
+            public int MadaId {
+                get {
+                    return ((int)(this[this.tabletbldragat.MadaIdColumn]));
+                }
+                set {
+                    this[this.tabletbldragat.MadaIdColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public double dgree {
                 get {
                     try {
-                        return ((double)(this[this.tabletbldragat.degmada1Column]));
+                        return ((double)(this[this.tabletbldragat.dgreeColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada1\' in table \'tbldragat\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'dgree\' in table \'tbldragat\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tabletbldragat.degmada1Column] = value;
+                    this[this.tabletbldragat.dgreeColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada2 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada2Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada2\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada2Column] = value;
-                }
+            public bool IsdgreeNull() {
+                return this.IsNull(this.tabletbldragat.dgreeColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada3 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada3Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada3\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada3Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada4 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada4Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada4\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada4Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada5 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada5Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada5\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada5Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada6 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada6Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada6\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada6Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada7 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada7Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada7\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada7Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada8 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada8Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada8\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada8Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada9 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada9Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada9\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada9Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada10 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada10Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada10\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada10Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada11 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada11Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada11\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada11Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada12 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada12Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada12\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada12Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada13 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada13Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada13\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada13Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada14 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada14Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada14\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada14Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada15 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada15Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada15\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada15Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada16 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada16Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada16\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada16Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada17 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada17Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada17\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada17Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada18 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada18Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada18\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada18Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada19 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada19Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada19\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada19Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada20 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada20Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada20\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada20Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada21 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada21Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada21\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada21Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada22 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada22Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada22\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada22Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada23 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada23Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada23\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada23Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada24 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada24Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada24\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada24Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public double degmada25 {
-                get {
-                    try {
-                        return ((double)(this[this.tabletbldragat.degmada25Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'degmada25\' in table \'tbldragat\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tabletbldragat.degmada25Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada1Null() {
-                return this.IsNull(this.tabletbldragat.degmada1Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada1Null() {
-                this[this.tabletbldragat.degmada1Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada2Null() {
-                return this.IsNull(this.tabletbldragat.degmada2Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada2Null() {
-                this[this.tabletbldragat.degmada2Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada3Null() {
-                return this.IsNull(this.tabletbldragat.degmada3Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada3Null() {
-                this[this.tabletbldragat.degmada3Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada4Null() {
-                return this.IsNull(this.tabletbldragat.degmada4Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada4Null() {
-                this[this.tabletbldragat.degmada4Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada5Null() {
-                return this.IsNull(this.tabletbldragat.degmada5Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada5Null() {
-                this[this.tabletbldragat.degmada5Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada6Null() {
-                return this.IsNull(this.tabletbldragat.degmada6Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada6Null() {
-                this[this.tabletbldragat.degmada6Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada7Null() {
-                return this.IsNull(this.tabletbldragat.degmada7Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada7Null() {
-                this[this.tabletbldragat.degmada7Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada8Null() {
-                return this.IsNull(this.tabletbldragat.degmada8Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada8Null() {
-                this[this.tabletbldragat.degmada8Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada9Null() {
-                return this.IsNull(this.tabletbldragat.degmada9Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada9Null() {
-                this[this.tabletbldragat.degmada9Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada10Null() {
-                return this.IsNull(this.tabletbldragat.degmada10Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada10Null() {
-                this[this.tabletbldragat.degmada10Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada11Null() {
-                return this.IsNull(this.tabletbldragat.degmada11Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada11Null() {
-                this[this.tabletbldragat.degmada11Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada12Null() {
-                return this.IsNull(this.tabletbldragat.degmada12Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada12Null() {
-                this[this.tabletbldragat.degmada12Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada13Null() {
-                return this.IsNull(this.tabletbldragat.degmada13Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada13Null() {
-                this[this.tabletbldragat.degmada13Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada14Null() {
-                return this.IsNull(this.tabletbldragat.degmada14Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada14Null() {
-                this[this.tabletbldragat.degmada14Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada15Null() {
-                return this.IsNull(this.tabletbldragat.degmada15Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada15Null() {
-                this[this.tabletbldragat.degmada15Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada16Null() {
-                return this.IsNull(this.tabletbldragat.degmada16Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada16Null() {
-                this[this.tabletbldragat.degmada16Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada17Null() {
-                return this.IsNull(this.tabletbldragat.degmada17Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada17Null() {
-                this[this.tabletbldragat.degmada17Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada18Null() {
-                return this.IsNull(this.tabletbldragat.degmada18Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada18Null() {
-                this[this.tabletbldragat.degmada18Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada19Null() {
-                return this.IsNull(this.tabletbldragat.degmada19Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada19Null() {
-                this[this.tabletbldragat.degmada19Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada20Null() {
-                return this.IsNull(this.tabletbldragat.degmada20Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada20Null() {
-                this[this.tabletbldragat.degmada20Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada21Null() {
-                return this.IsNull(this.tabletbldragat.degmada21Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada21Null() {
-                this[this.tabletbldragat.degmada21Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada22Null() {
-                return this.IsNull(this.tabletbldragat.degmada22Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada22Null() {
-                this[this.tabletbldragat.degmada22Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada23Null() {
-                return this.IsNull(this.tabletbldragat.degmada23Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada23Null() {
-                this[this.tabletbldragat.degmada23Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada24Null() {
-                return this.IsNull(this.tabletbldragat.degmada24Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada24Null() {
-                this[this.tabletbldragat.degmada24Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isdegmada25Null() {
-                return this.IsNull(this.tabletbldragat.degmada25Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setdegmada25Null() {
-                this[this.tabletbldragat.degmada25Column] = global::System.Convert.DBNull;
+            public void SetdgreeNull() {
+                this[this.tabletbldragat.dgreeColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -14422,11 +13447,17 @@ SELECT ExamId, MadaId, maxdeg, mindeg FROM TblMawadSfof WHERE (ExamId = @ExamId)
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT ExamId, MadaId, maxdeg, mindeg FROM dbo.TblMawadSfof";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[1].Connection = this.Connection;
+            this._commandCollection[1].CommandText = "SELECT        ExamId, MadaId, maxdeg, mindeg\r\nFROM            TblMawadSfof\r\nWHERE" +
+                "        (ExamId = @ExamId)";
+            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ExamId", global::System.Data.SqlDbType.TinyInt, 1, global::System.Data.ParameterDirection.Input, 0, 0, "ExamId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -14448,6 +13479,32 @@ SELECT ExamId, MadaId, maxdeg, mindeg FROM TblMawadSfof WHERE (ExamId = @ExamId)
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
         public virtual dsData.TblMawadSfofDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
+            dsData.TblMawadSfofDataTable dataTable = new dsData.TblMawadSfofDataTable();
+            this.Adapter.Fill(dataTable);
+            return dataTable;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int FillByExamId(dsData.TblMawadSfofDataTable dataTable, byte ExamId) {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
+            this.Adapter.SelectCommand.Parameters[0].Value = ((byte)(ExamId));
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
+        public virtual dsData.TblMawadSfofDataTable GetDataByExamId(byte ExamId) {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
+            this.Adapter.SelectCommand.Parameters[0].Value = ((byte)(ExamId));
             dsData.TblMawadSfofDataTable dataTable = new dsData.TblMawadSfofDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
@@ -14871,7 +13928,7 @@ SELECT Beanid, BeanTypeId, StageId, ExamId, YearId, stname, SchoolId, gloosno, S
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(byte BeanTypeId, byte StageId, byte ExamId, int YearId, string stname, int SchoolId, int gloosno, byte ShopaId, byte FaslDrasyId, string geha, int esal, System.DateTime esaldate, double esalmony, int userin, System.DateTime datein) {
+        public virtual int Insert(byte BeanTypeId, byte StageId, byte ExamId, int YearId, string stname, int SchoolId, int gloosno, global::System.Nullable<byte> ShopaId, byte FaslDrasyId, string geha, int esal, System.DateTime esaldate, double esalmony, int userin, System.DateTime datein) {
             this.Adapter.InsertCommand.Parameters[0].Value = ((byte)(BeanTypeId));
             this.Adapter.InsertCommand.Parameters[1].Value = ((byte)(StageId));
             this.Adapter.InsertCommand.Parameters[2].Value = ((byte)(ExamId));
@@ -14884,7 +13941,12 @@ SELECT Beanid, BeanTypeId, StageId, ExamId, YearId, stname, SchoolId, gloosno, S
             }
             this.Adapter.InsertCommand.Parameters[5].Value = ((int)(SchoolId));
             this.Adapter.InsertCommand.Parameters[6].Value = ((int)(gloosno));
-            this.Adapter.InsertCommand.Parameters[7].Value = ((byte)(ShopaId));
+            if ((ShopaId.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[7].Value = ((byte)(ShopaId.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[7].Value = global::System.DBNull.Value;
+            }
             this.Adapter.InsertCommand.Parameters[8].Value = ((byte)(FaslDrasyId));
             if ((geha == null)) {
                 throw new global::System.ArgumentNullException("geha");
@@ -14925,7 +13987,7 @@ SELECT Beanid, BeanTypeId, StageId, ExamId, YearId, stname, SchoolId, gloosno, S
                     string stname, 
                     int SchoolId, 
                     int gloosno, 
-                    byte ShopaId, 
+                    global::System.Nullable<byte> ShopaId, 
                     byte FaslDrasyId, 
                     string geha, 
                     int esal, 
@@ -14947,7 +14009,12 @@ SELECT Beanid, BeanTypeId, StageId, ExamId, YearId, stname, SchoolId, gloosno, S
             }
             this.Adapter.UpdateCommand.Parameters[5].Value = ((int)(SchoolId));
             this.Adapter.UpdateCommand.Parameters[6].Value = ((int)(gloosno));
-            this.Adapter.UpdateCommand.Parameters[7].Value = ((byte)(ShopaId));
+            if ((ShopaId.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[7].Value = ((byte)(ShopaId.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[7].Value = global::System.DBNull.Value;
+            }
             this.Adapter.UpdateCommand.Parameters[8].Value = ((byte)(FaslDrasyId));
             if ((geha == null)) {
                 throw new global::System.ArgumentNullException("geha");
@@ -14990,7 +14057,7 @@ SELECT Beanid, BeanTypeId, StageId, ExamId, YearId, stname, SchoolId, gloosno, S
                     string stname, 
                     int SchoolId, 
                     int gloosno, 
-                    byte ShopaId, 
+                    global::System.Nullable<byte> ShopaId, 
                     byte FaslDrasyId, 
                     string geha, 
                     int esal, 
@@ -16368,7 +15435,7 @@ SELECT BeanDragatId, StageId, ExamId, YearId, stname, SchoolId, gloosno, ShopaId
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(byte StageId, byte ExamId, int YearId, string stname, int SchoolId, int gloosno, byte ShopaId, byte FaslDrasyId, string natega, int esal, System.DateTime esaldate, double esalmony, int userin, System.DateTime datein) {
+        public virtual int Insert(byte StageId, byte ExamId, int YearId, string stname, int SchoolId, int gloosno, global::System.Nullable<byte> ShopaId, byte FaslDrasyId, string natega, int esal, System.DateTime esaldate, double esalmony, int userin, System.DateTime datein) {
             this.Adapter.InsertCommand.Parameters[0].Value = ((byte)(StageId));
             this.Adapter.InsertCommand.Parameters[1].Value = ((byte)(ExamId));
             this.Adapter.InsertCommand.Parameters[2].Value = ((int)(YearId));
@@ -16380,7 +15447,12 @@ SELECT BeanDragatId, StageId, ExamId, YearId, stname, SchoolId, gloosno, ShopaId
             }
             this.Adapter.InsertCommand.Parameters[4].Value = ((int)(SchoolId));
             this.Adapter.InsertCommand.Parameters[5].Value = ((int)(gloosno));
-            this.Adapter.InsertCommand.Parameters[6].Value = ((byte)(ShopaId));
+            if ((ShopaId.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[6].Value = ((byte)(ShopaId.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[6].Value = global::System.DBNull.Value;
+            }
             this.Adapter.InsertCommand.Parameters[7].Value = ((byte)(FaslDrasyId));
             if ((natega == null)) {
                 throw new global::System.ArgumentNullException("natega");
@@ -16420,7 +15492,7 @@ SELECT BeanDragatId, StageId, ExamId, YearId, stname, SchoolId, gloosno, ShopaId
                     string stname, 
                     int SchoolId, 
                     int gloosno, 
-                    byte ShopaId, 
+                    global::System.Nullable<byte> ShopaId, 
                     byte FaslDrasyId, 
                     string natega, 
                     int esal, 
@@ -16441,7 +15513,12 @@ SELECT BeanDragatId, StageId, ExamId, YearId, stname, SchoolId, gloosno, ShopaId
             }
             this.Adapter.UpdateCommand.Parameters[4].Value = ((int)(SchoolId));
             this.Adapter.UpdateCommand.Parameters[5].Value = ((int)(gloosno));
-            this.Adapter.UpdateCommand.Parameters[6].Value = ((byte)(ShopaId));
+            if ((ShopaId.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[6].Value = ((byte)(ShopaId.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[6].Value = global::System.DBNull.Value;
+            }
             this.Adapter.UpdateCommand.Parameters[7].Value = ((byte)(FaslDrasyId));
             if ((natega == null)) {
                 throw new global::System.ArgumentNullException("natega");
@@ -16476,7 +15553,7 @@ SELECT BeanDragatId, StageId, ExamId, YearId, stname, SchoolId, gloosno, ShopaId
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(byte StageId, byte ExamId, int YearId, string stname, int SchoolId, int gloosno, byte ShopaId, byte FaslDrasyId, string natega, int esal, System.DateTime esaldate, double esalmony, int userin, System.DateTime datein, int Original_BeanDragatId) {
+        public virtual int Update(byte StageId, byte ExamId, int YearId, string stname, int SchoolId, int gloosno, global::System.Nullable<byte> ShopaId, byte FaslDrasyId, string natega, int esal, System.DateTime esaldate, double esalmony, int userin, System.DateTime datein, int Original_BeanDragatId) {
             return this.Update(StageId, ExamId, YearId, stname, SchoolId, gloosno, ShopaId, FaslDrasyId, natega, esal, esaldate, esalmony, userin, datein, Original_BeanDragatId, Original_BeanDragatId);
         }
     }
@@ -16603,100 +15680,35 @@ SELECT BeanDragatId, StageId, ExamId, YearId, stname, SchoolId, gloosno, ShopaId
             tableMapping.SourceTable = "Table";
             tableMapping.DataSetTable = "tbldragat";
             tableMapping.ColumnMappings.Add("BeanDragatId", "BeanDragatId");
-            tableMapping.ColumnMappings.Add("degmada1", "degmada1");
-            tableMapping.ColumnMappings.Add("degmada2", "degmada2");
-            tableMapping.ColumnMappings.Add("degmada3", "degmada3");
-            tableMapping.ColumnMappings.Add("degmada4", "degmada4");
-            tableMapping.ColumnMappings.Add("degmada5", "degmada5");
-            tableMapping.ColumnMappings.Add("degmada6", "degmada6");
-            tableMapping.ColumnMappings.Add("degmada7", "degmada7");
-            tableMapping.ColumnMappings.Add("degmada8", "degmada8");
-            tableMapping.ColumnMappings.Add("degmada9", "degmada9");
-            tableMapping.ColumnMappings.Add("degmada10", "degmada10");
-            tableMapping.ColumnMappings.Add("degmada11", "degmada11");
-            tableMapping.ColumnMappings.Add("degmada12", "degmada12");
-            tableMapping.ColumnMappings.Add("degmada13", "degmada13");
-            tableMapping.ColumnMappings.Add("degmada14", "degmada14");
-            tableMapping.ColumnMappings.Add("degmada15", "degmada15");
-            tableMapping.ColumnMappings.Add("degmada16", "degmada16");
-            tableMapping.ColumnMappings.Add("degmada17", "degmada17");
-            tableMapping.ColumnMappings.Add("degmada18", "degmada18");
-            tableMapping.ColumnMappings.Add("degmada19", "degmada19");
-            tableMapping.ColumnMappings.Add("degmada20", "degmada20");
-            tableMapping.ColumnMappings.Add("degmada21", "degmada21");
-            tableMapping.ColumnMappings.Add("degmada22", "degmada22");
-            tableMapping.ColumnMappings.Add("degmada23", "degmada23");
-            tableMapping.ColumnMappings.Add("degmada24", "degmada24");
-            tableMapping.ColumnMappings.Add("degmada25", "degmada25");
+            tableMapping.ColumnMappings.Add("MadaId", "MadaId");
+            tableMapping.ColumnMappings.Add("dgree", "dgree");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.DeleteCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.DeleteCommand.Connection = this.Connection;
-            this._adapter.DeleteCommand.CommandText = "DELETE FROM [dbo].[tbldragat] WHERE (([BeanDragatId] = @Original_BeanDragatId))";
+            this._adapter.DeleteCommand.CommandText = "DELETE FROM [dbo].[tbldragat] WHERE (([BeanDragatId] = @Original_BeanDragatId) AN" +
+                "D ([MadaId] = @Original_MadaId))";
             this._adapter.DeleteCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_BeanDragatId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "BeanDragatId", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_MadaId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MadaId", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = @"INSERT INTO [dbo].[tbldragat] ([BeanDragatId], [degmada1], [degmada2], [degmada3], [degmada4], [degmada5], [degmada6], [degmada7], [degmada8], [degmada9], [degmada10], [degmada11], [degmada12], [degmada13], [degmada14], [degmada15], [degmada16], [degmada17], [degmada18], [degmada19], [degmada20], [degmada21], [degmada22], [degmada23], [degmada24], [degmada25]) VALUES (@BeanDragatId, @degmada1, @degmada2, @degmada3, @degmada4, @degmada5, @degmada6, @degmada7, @degmada8, @degmada9, @degmada10, @degmada11, @degmada12, @degmada13, @degmada14, @degmada15, @degmada16, @degmada17, @degmada18, @degmada19, @degmada20, @degmada21, @degmada22, @degmada23, @degmada24, @degmada25);
-SELECT BeanDragatId, degmada1, degmada2, degmada3, degmada4, degmada5, degmada6, degmada7, degmada8, degmada9, degmada10, degmada11, degmada12, degmada13, degmada14, degmada15, degmada16, degmada17, degmada18, degmada19, degmada20, degmada21, degmada22, degmada23, degmada24, degmada25 FROM tbldragat WHERE (BeanDragatId = @BeanDragatId)";
+            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[tbldragat] ([BeanDragatId], [MadaId], [dgree]) VALUES (@BeanDr" +
+                "agatId, @MadaId, @dgree);\r\nSELECT BeanDragatId, MadaId, dgree FROM tbldragat WHE" +
+                "RE (BeanDragatId = @BeanDragatId) AND (MadaId = @MadaId)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@BeanDragatId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "BeanDragatId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada1", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada1", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada2", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada2", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada3", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada3", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada4", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada4", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada5", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada5", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada6", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada6", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada7", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada7", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada8", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada8", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada9", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada9", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada10", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada10", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada11", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada11", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada12", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada12", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada13", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada13", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada14", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada14", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada15", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada15", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada16", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada16", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada17", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada17", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada18", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada18", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada19", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada19", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada20", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada20", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada21", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada21", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada22", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada22", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada23", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada23", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada24", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada24", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada25", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada25", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MadaId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MadaId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@dgree", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dgree", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[tbldragat] SET [BeanDragatId] = @BeanDragatId, [degmada1] = @degmada1, [degmada2] = @degmada2, [degmada3] = @degmada3, [degmada4] = @degmada4, [degmada5] = @degmada5, [degmada6] = @degmada6, [degmada7] = @degmada7, [degmada8] = @degmada8, [degmada9] = @degmada9, [degmada10] = @degmada10, [degmada11] = @degmada11, [degmada12] = @degmada12, [degmada13] = @degmada13, [degmada14] = @degmada14, [degmada15] = @degmada15, [degmada16] = @degmada16, [degmada17] = @degmada17, [degmada18] = @degmada18, [degmada19] = @degmada19, [degmada20] = @degmada20, [degmada21] = @degmada21, [degmada22] = @degmada22, [degmada23] = @degmada23, [degmada24] = @degmada24, [degmada25] = @degmada25 WHERE (([BeanDragatId] = @Original_BeanDragatId));
-SELECT BeanDragatId, degmada1, degmada2, degmada3, degmada4, degmada5, degmada6, degmada7, degmada8, degmada9, degmada10, degmada11, degmada12, degmada13, degmada14, degmada15, degmada16, degmada17, degmada18, degmada19, degmada20, degmada21, degmada22, degmada23, degmada24, degmada25 FROM tbldragat WHERE (BeanDragatId = @BeanDragatId)";
+            this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[tbldragat] SET [BeanDragatId] = @BeanDragatId, [MadaId] = @MadaId, [dgree] = @dgree WHERE (([BeanDragatId] = @Original_BeanDragatId) AND ([MadaId] = @Original_MadaId));
+SELECT BeanDragatId, MadaId, dgree FROM tbldragat WHERE (BeanDragatId = @BeanDragatId) AND (MadaId = @MadaId)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@BeanDragatId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "BeanDragatId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada1", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada1", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada2", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada2", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada3", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada3", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada4", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada4", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada5", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada5", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada6", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada6", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada7", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada7", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada8", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada8", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada9", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada9", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada10", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada10", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada11", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada11", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada12", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada12", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada13", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada13", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada14", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada14", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada15", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada15", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada16", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada16", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada17", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada17", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada18", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada18", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada19", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada19", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada20", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada20", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada21", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada21", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada22", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada22", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada23", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada23", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada24", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada24", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@degmada25", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "degmada25", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MadaId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MadaId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@dgree", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dgree", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_BeanDragatId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "BeanDragatId", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_MadaId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MadaId", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -16712,12 +15724,12 @@ SELECT BeanDragatId, degmada1, degmada2, degmada3, degmada4, degmada5, degmada6,
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = @"SELECT BeanDragatId, degmada1, degmada2, degmada3, degmada4, degmada5, degmada6, degmada7, degmada8, degmada9, degmada10, degmada11, degmada12, degmada13, degmada14, degmada15, degmada16, degmada17, degmada18, degmada19, degmada20, degmada21, degmada22, degmada23, degmada24, degmada25 FROM dbo.tbldragat";
+            this._commandCollection[0].CommandText = "SELECT BeanDragatId, MadaId, dgree FROM dbo.tbldragat";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[1].Connection = this.Connection;
-            this._commandCollection[1].CommandText = @"SELECT BeanDragatId, degmada1, degmada2, degmada3, degmada4, degmada5, degmada6, degmada7, degmada8, degmada9, degmada10, degmada11, degmada12, degmada13, degmada14, degmada15, degmada16, degmada17, degmada18, degmada19, degmada20, degmada21, degmada22, degmada23, degmada24, degmada25 FROM dbo.tbldragat
-WHERE BeanDragatId = @BeanDragatId";
+            this._commandCollection[1].CommandText = "SELECT BeanDragatId, MadaId, dgree FROM dbo.tbldragat\r\nWHERE BeanDragatId = @Bean" +
+                "DragatId";
             this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@BeanDragatId", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "BeanDragatId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
@@ -16805,8 +15817,9 @@ WHERE BeanDragatId = @BeanDragatId";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
-        public virtual int Delete(int Original_BeanDragatId) {
+        public virtual int Delete(int Original_BeanDragatId, int Original_MadaId) {
             this.Adapter.DeleteCommand.Parameters[0].Value = ((int)(Original_BeanDragatId));
+            this.Adapter.DeleteCommand.Parameters[1].Value = ((int)(Original_MadaId));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
             if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -16827,183 +15840,14 @@ WHERE BeanDragatId = @BeanDragatId";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(
-                    int BeanDragatId, 
-                    global::System.Nullable<double> degmada1, 
-                    global::System.Nullable<double> degmada2, 
-                    global::System.Nullable<double> degmada3, 
-                    global::System.Nullable<double> degmada4, 
-                    global::System.Nullable<double> degmada5, 
-                    global::System.Nullable<double> degmada6, 
-                    global::System.Nullable<double> degmada7, 
-                    global::System.Nullable<double> degmada8, 
-                    global::System.Nullable<double> degmada9, 
-                    global::System.Nullable<double> degmada10, 
-                    global::System.Nullable<double> degmada11, 
-                    global::System.Nullable<double> degmada12, 
-                    global::System.Nullable<double> degmada13, 
-                    global::System.Nullable<double> degmada14, 
-                    global::System.Nullable<double> degmada15, 
-                    global::System.Nullable<double> degmada16, 
-                    global::System.Nullable<double> degmada17, 
-                    global::System.Nullable<double> degmada18, 
-                    global::System.Nullable<double> degmada19, 
-                    global::System.Nullable<double> degmada20, 
-                    global::System.Nullable<double> degmada21, 
-                    global::System.Nullable<double> degmada22, 
-                    global::System.Nullable<double> degmada23, 
-                    global::System.Nullable<double> degmada24, 
-                    global::System.Nullable<double> degmada25) {
+        public virtual int Insert(int BeanDragatId, int MadaId, global::System.Nullable<double> dgree) {
             this.Adapter.InsertCommand.Parameters[0].Value = ((int)(BeanDragatId));
-            if ((degmada1.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[1].Value = ((double)(degmada1.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[1].Value = global::System.DBNull.Value;
-            }
-            if ((degmada2.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[2].Value = ((double)(degmada2.Value));
+            this.Adapter.InsertCommand.Parameters[1].Value = ((int)(MadaId));
+            if ((dgree.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[2].Value = ((double)(dgree.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[2].Value = global::System.DBNull.Value;
-            }
-            if ((degmada3.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[3].Value = ((double)(degmada3.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[3].Value = global::System.DBNull.Value;
-            }
-            if ((degmada4.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[4].Value = ((double)(degmada4.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[4].Value = global::System.DBNull.Value;
-            }
-            if ((degmada5.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[5].Value = ((double)(degmada5.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[5].Value = global::System.DBNull.Value;
-            }
-            if ((degmada6.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[6].Value = ((double)(degmada6.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[6].Value = global::System.DBNull.Value;
-            }
-            if ((degmada7.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[7].Value = ((double)(degmada7.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[7].Value = global::System.DBNull.Value;
-            }
-            if ((degmada8.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[8].Value = ((double)(degmada8.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[8].Value = global::System.DBNull.Value;
-            }
-            if ((degmada9.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[9].Value = ((double)(degmada9.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[9].Value = global::System.DBNull.Value;
-            }
-            if ((degmada10.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[10].Value = ((double)(degmada10.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[10].Value = global::System.DBNull.Value;
-            }
-            if ((degmada11.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[11].Value = ((double)(degmada11.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[11].Value = global::System.DBNull.Value;
-            }
-            if ((degmada12.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[12].Value = ((double)(degmada12.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[12].Value = global::System.DBNull.Value;
-            }
-            if ((degmada13.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[13].Value = ((double)(degmada13.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[13].Value = global::System.DBNull.Value;
-            }
-            if ((degmada14.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[14].Value = ((double)(degmada14.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[14].Value = global::System.DBNull.Value;
-            }
-            if ((degmada15.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[15].Value = ((double)(degmada15.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[15].Value = global::System.DBNull.Value;
-            }
-            if ((degmada16.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[16].Value = ((double)(degmada16.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[16].Value = global::System.DBNull.Value;
-            }
-            if ((degmada17.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[17].Value = ((double)(degmada17.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[17].Value = global::System.DBNull.Value;
-            }
-            if ((degmada18.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[18].Value = ((double)(degmada18.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[18].Value = global::System.DBNull.Value;
-            }
-            if ((degmada19.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[19].Value = ((double)(degmada19.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[19].Value = global::System.DBNull.Value;
-            }
-            if ((degmada20.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[20].Value = ((double)(degmada20.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[20].Value = global::System.DBNull.Value;
-            }
-            if ((degmada21.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[21].Value = ((double)(degmada21.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[21].Value = global::System.DBNull.Value;
-            }
-            if ((degmada22.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[22].Value = ((double)(degmada22.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[22].Value = global::System.DBNull.Value;
-            }
-            if ((degmada23.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[23].Value = ((double)(degmada23.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[23].Value = global::System.DBNull.Value;
-            }
-            if ((degmada24.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[24].Value = ((double)(degmada24.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[24].Value = global::System.DBNull.Value;
-            }
-            if ((degmada25.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[25].Value = ((double)(degmada25.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[25].Value = global::System.DBNull.Value;
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -17025,186 +15869,17 @@ WHERE BeanDragatId = @BeanDragatId";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(
-                    int BeanDragatId, 
-                    global::System.Nullable<double> degmada1, 
-                    global::System.Nullable<double> degmada2, 
-                    global::System.Nullable<double> degmada3, 
-                    global::System.Nullable<double> degmada4, 
-                    global::System.Nullable<double> degmada5, 
-                    global::System.Nullable<double> degmada6, 
-                    global::System.Nullable<double> degmada7, 
-                    global::System.Nullable<double> degmada8, 
-                    global::System.Nullable<double> degmada9, 
-                    global::System.Nullable<double> degmada10, 
-                    global::System.Nullable<double> degmada11, 
-                    global::System.Nullable<double> degmada12, 
-                    global::System.Nullable<double> degmada13, 
-                    global::System.Nullable<double> degmada14, 
-                    global::System.Nullable<double> degmada15, 
-                    global::System.Nullable<double> degmada16, 
-                    global::System.Nullable<double> degmada17, 
-                    global::System.Nullable<double> degmada18, 
-                    global::System.Nullable<double> degmada19, 
-                    global::System.Nullable<double> degmada20, 
-                    global::System.Nullable<double> degmada21, 
-                    global::System.Nullable<double> degmada22, 
-                    global::System.Nullable<double> degmada23, 
-                    global::System.Nullable<double> degmada24, 
-                    global::System.Nullable<double> degmada25, 
-                    int Original_BeanDragatId) {
+        public virtual int Update(int BeanDragatId, int MadaId, global::System.Nullable<double> dgree, int Original_BeanDragatId, int Original_MadaId) {
             this.Adapter.UpdateCommand.Parameters[0].Value = ((int)(BeanDragatId));
-            if ((degmada1.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[1].Value = ((double)(degmada1.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[1].Value = global::System.DBNull.Value;
-            }
-            if ((degmada2.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[2].Value = ((double)(degmada2.Value));
+            this.Adapter.UpdateCommand.Parameters[1].Value = ((int)(MadaId));
+            if ((dgree.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[2].Value = ((double)(dgree.Value));
             }
             else {
                 this.Adapter.UpdateCommand.Parameters[2].Value = global::System.DBNull.Value;
             }
-            if ((degmada3.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[3].Value = ((double)(degmada3.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[3].Value = global::System.DBNull.Value;
-            }
-            if ((degmada4.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[4].Value = ((double)(degmada4.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[4].Value = global::System.DBNull.Value;
-            }
-            if ((degmada5.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[5].Value = ((double)(degmada5.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[5].Value = global::System.DBNull.Value;
-            }
-            if ((degmada6.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[6].Value = ((double)(degmada6.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[6].Value = global::System.DBNull.Value;
-            }
-            if ((degmada7.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[7].Value = ((double)(degmada7.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[7].Value = global::System.DBNull.Value;
-            }
-            if ((degmada8.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[8].Value = ((double)(degmada8.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[8].Value = global::System.DBNull.Value;
-            }
-            if ((degmada9.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[9].Value = ((double)(degmada9.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[9].Value = global::System.DBNull.Value;
-            }
-            if ((degmada10.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[10].Value = ((double)(degmada10.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[10].Value = global::System.DBNull.Value;
-            }
-            if ((degmada11.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[11].Value = ((double)(degmada11.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[11].Value = global::System.DBNull.Value;
-            }
-            if ((degmada12.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[12].Value = ((double)(degmada12.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[12].Value = global::System.DBNull.Value;
-            }
-            if ((degmada13.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[13].Value = ((double)(degmada13.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[13].Value = global::System.DBNull.Value;
-            }
-            if ((degmada14.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[14].Value = ((double)(degmada14.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[14].Value = global::System.DBNull.Value;
-            }
-            if ((degmada15.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[15].Value = ((double)(degmada15.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[15].Value = global::System.DBNull.Value;
-            }
-            if ((degmada16.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[16].Value = ((double)(degmada16.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[16].Value = global::System.DBNull.Value;
-            }
-            if ((degmada17.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[17].Value = ((double)(degmada17.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[17].Value = global::System.DBNull.Value;
-            }
-            if ((degmada18.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[18].Value = ((double)(degmada18.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[18].Value = global::System.DBNull.Value;
-            }
-            if ((degmada19.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[19].Value = ((double)(degmada19.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[19].Value = global::System.DBNull.Value;
-            }
-            if ((degmada20.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[20].Value = ((double)(degmada20.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[20].Value = global::System.DBNull.Value;
-            }
-            if ((degmada21.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[21].Value = ((double)(degmada21.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[21].Value = global::System.DBNull.Value;
-            }
-            if ((degmada22.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[22].Value = ((double)(degmada22.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[22].Value = global::System.DBNull.Value;
-            }
-            if ((degmada23.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[23].Value = ((double)(degmada23.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[23].Value = global::System.DBNull.Value;
-            }
-            if ((degmada24.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[24].Value = ((double)(degmada24.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[24].Value = global::System.DBNull.Value;
-            }
-            if ((degmada25.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[25].Value = ((double)(degmada25.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[25].Value = global::System.DBNull.Value;
-            }
-            this.Adapter.UpdateCommand.Parameters[26].Value = ((int)(Original_BeanDragatId));
+            this.Adapter.UpdateCommand.Parameters[3].Value = ((int)(Original_BeanDragatId));
+            this.Adapter.UpdateCommand.Parameters[4].Value = ((int)(Original_MadaId));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
             if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -17225,34 +15900,8 @@ WHERE BeanDragatId = @BeanDragatId";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(
-                    global::System.Nullable<double> degmada1, 
-                    global::System.Nullable<double> degmada2, 
-                    global::System.Nullable<double> degmada3, 
-                    global::System.Nullable<double> degmada4, 
-                    global::System.Nullable<double> degmada5, 
-                    global::System.Nullable<double> degmada6, 
-                    global::System.Nullable<double> degmada7, 
-                    global::System.Nullable<double> degmada8, 
-                    global::System.Nullable<double> degmada9, 
-                    global::System.Nullable<double> degmada10, 
-                    global::System.Nullable<double> degmada11, 
-                    global::System.Nullable<double> degmada12, 
-                    global::System.Nullable<double> degmada13, 
-                    global::System.Nullable<double> degmada14, 
-                    global::System.Nullable<double> degmada15, 
-                    global::System.Nullable<double> degmada16, 
-                    global::System.Nullable<double> degmada17, 
-                    global::System.Nullable<double> degmada18, 
-                    global::System.Nullable<double> degmada19, 
-                    global::System.Nullable<double> degmada20, 
-                    global::System.Nullable<double> degmada21, 
-                    global::System.Nullable<double> degmada22, 
-                    global::System.Nullable<double> degmada23, 
-                    global::System.Nullable<double> degmada24, 
-                    global::System.Nullable<double> degmada25, 
-                    int Original_BeanDragatId) {
-            return this.Update(Original_BeanDragatId, degmada1, degmada2, degmada3, degmada4, degmada5, degmada6, degmada7, degmada8, degmada9, degmada10, degmada11, degmada12, degmada13, degmada14, degmada15, degmada16, degmada17, degmada18, degmada19, degmada20, degmada21, degmada22, degmada23, degmada24, degmada25, Original_BeanDragatId);
+        public virtual int Update(global::System.Nullable<double> dgree, int Original_BeanDragatId, int Original_MadaId) {
+            return this.Update(Original_BeanDragatId, Original_MadaId, dgree, Original_BeanDragatId, Original_MadaId);
         }
     }
     
@@ -17283,7 +15932,7 @@ WHERE BeanDragatId = @BeanDragatId";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.IDbCommand[2];
+            this._commandCollection = new global::System.Data.IDbCommand[3];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Connection = new global::System.Data.SqlClient.SqlConnection(global::StudentAffairs.Properties.Settings.Default.StudentAffairsConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).CommandText = "SELECT        UserID\r\nFROM            Users\r\nWHERE        (UserID = @UserID) AND " +
@@ -17299,6 +15948,13 @@ WHERE BeanDragatId = @BeanDragatId";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@UserName", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, "UserName", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@UserPass", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, "UserPass", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@UserID", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "UserID", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._commandCollection[2] = new global::System.Data.SqlClient.SqlCommand();
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[2])).Connection = new global::System.Data.SqlClient.SqlConnection(global::StudentAffairs.Properties.Settings.Default.StudentAffairsConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[2])).CommandText = @"INSERT INTO [dbo].[tbldragat] ([BeanDragatId], [MadaId], [dgree])
+SELECT @BeanDragatId, [MadaId], 0 FROM [dbo].[TblMawadSfof] WHERE [ExamId] = (SELECT [ExamId] FROM [dbo].[TblBeanDragat] WHERE [BeanDragatId] = @BeanDragatId)
+AND NOT EXISTS(SELECT * FROM [dbo].[tbldragat] TBL WHERE [BeanDragatId] = @BeanDragatId AND [MadaId] = [TblMawadSfof].[MadaId])";
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[2])).CommandType = global::System.Data.CommandType.Text;
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[2])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@BeanDragatId", global::System.Data.SqlDbType.VarChar, 1024, global::System.Data.ParameterDirection.Input, 0, 0, "", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -17355,6 +16011,35 @@ WHERE BeanDragatId = @BeanDragatId";
                 command.Parameters[1].Value = ((string)(UserPass));
             }
             command.Parameters[2].Value = ((int)(UserID));
+            global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
+            if (((command.Connection.State & global::System.Data.ConnectionState.Open) 
+                        != global::System.Data.ConnectionState.Open)) {
+                command.Connection.Open();
+            }
+            int returnValue;
+            try {
+                returnValue = command.ExecuteNonQuery();
+            }
+            finally {
+                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
+                    command.Connection.Close();
+                }
+            }
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, false)]
+        public virtual int Inserttbldragat(string BeanDragatId) {
+            global::System.Data.SqlClient.SqlCommand command = ((global::System.Data.SqlClient.SqlCommand)(this.CommandCollection[2]));
+            if ((BeanDragatId == null)) {
+                throw new global::System.ArgumentNullException("BeanDragatId");
+            }
+            else {
+                command.Parameters[0].Value = ((string)(BeanDragatId));
+            }
             global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
             if (((command.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
